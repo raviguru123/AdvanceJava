@@ -5,12 +5,10 @@ import lombok.Getter;
 import lombok.Setter;
 import org.lld.practice.navi.ledger.co.exception.InvalidCommand;
 
-import java.util.Arrays;
-
 @Builder
 @Getter
 @Setter
-public class BalanceCommand {
+public class BalanceCommand implements Command {
     String bank_name;
 
     String borrower_name;

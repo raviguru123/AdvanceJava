@@ -1,6 +1,6 @@
 package org.lld.practice.navi.ledger.co.strategy.balance;
 
-import org.lld.practice.navi.ledger.co.Loan;
+import org.lld.practice.navi.ledger.co.models.Loan;
 import org.lld.practice.navi.ledger.co.command.BalanceCommand;
 
 public class BalanceCalculate implements IBalanceCalculate {
@@ -20,6 +20,6 @@ public class BalanceCalculate implements IBalanceCalculate {
         }
         int lump_sump_emi_reduce = (int) (lump_sump_amount / emi_amount);
 
-        return balanceCommand.getBank_name() + " " + balanceCommand.getBorrower_name() + " " + total_paid_amount + " " + (remaining_emi_count - lump_sump_emi_reduce);
+        return balanceCommand.getBank_name() + " " + balanceCommand.getBorrower_name() + " " + (int)total_paid_amount + " " + (remaining_emi_count - lump_sump_emi_reduce);
     }
 }

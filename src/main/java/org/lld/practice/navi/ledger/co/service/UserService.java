@@ -1,7 +1,7 @@
 package org.lld.practice.navi.ledger.co.service;
 
-import org.lld.practice.navi.ledger.co.Borrower;
-import org.lld.practice.navi.ledger.co.User;
+import org.lld.practice.navi.ledger.co.models.Borrower;
+import org.lld.practice.navi.ledger.co.models.User;
 import org.lld.practice.navi.ledger.co.exception.UserNotFoundException;
 import org.lld.practice.navi.ledger.co.exception.UserTypeNotExist;
 

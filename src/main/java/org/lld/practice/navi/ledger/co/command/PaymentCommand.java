@@ -8,7 +8,7 @@ import org.lld.practice.navi.ledger.co.exception.InvalidCommand;
 @Builder
 @Getter
 @Setter
-public class PaymentCommand {
+public class PaymentCommand implements Command{
     String bank_name;
     String borrower_name;
 

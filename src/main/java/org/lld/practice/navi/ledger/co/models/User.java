@@ -1,4 +1,4 @@
-package org.lld.practice.navi.ledger.co;
+package org.lld.practice.navi.ledger.co.models;
 
 import lombok.Getter;
 
